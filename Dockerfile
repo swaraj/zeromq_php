@@ -28,11 +28,11 @@ RUN /etc/init.d/php5-fpm restart
 
 EXPOSE 5555
 
-COPY client_runner.php /root
-COPY zeromq_client.php /root
-COPY zeromq_server.php /root
-COPY client_persistent_runner.php /root	
-COPY info.php /root
-COPY zeromq_persistent_client.php /root
+COPY client_runner.php /root/
+COPY zeromq_client.php /root/
+COPY zeromq_server.php /root/
+COPY client_persistent_runner.php /root/	
+COPY info.php /root/
+COPY zeromq_persistent_client.php /root/
 
 WORKDIR /root
